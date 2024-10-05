@@ -1,0 +1,74 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #ffeb3b;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    width: 350px;
+}
+
+h1 {
+    color: #e91e63;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    width: 80%;
+    border: 2px solid #e91e63;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #333;
+    background-color: #fce4ec;
+    outline: none;
+}
+
+button {
+    padding: 12px 30px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #388e3c;
+}
+
+.result {
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+#attemptsText {
+    color: #333;
+    font-size: 16px;
+}
